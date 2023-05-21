@@ -1,0 +1,149 @@
+header {
+  background-color: rgb(70, 70, 219);
+  color: white;
+  
+}
+
+main {
+  margin-top: 40px !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: rgb(70, 70, 219);
+  color: white;
+  font-size: 20px;
+  transition-duration: 200ms;
+  border: 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(123, 123, 209);
+}
+p, h5 {
+  margin: 0;
+}
+.container {
+  max-width: 1340px;
+  padding: 5px 20px;
+  margin: 0 auto;
+}
+
+.logo-name {
+  font-size: 40px;
+  user-select: none;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.mainItem {
+  width: 300px;
+  height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition-duration: 200ms;
+}
+
+.mainItem:hover {
+ opacity: 0.8; 
+}
+
+.loading {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+  height: 146px;
+  border-bottom: 1px solid rgb(70, 70, 219);
+  padding: 2px 5px;
+}
+.about p{
+  font-size: 12px;
+}
+
+.about .params {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.autohor {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.about .comments {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.about img{
+  width: 20px;
+  height: 20px;
+}
+
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.main-image img {
+  width: 200px;
+  height: 200px;
+}
+
+.item-link{
+  transition-duration: 150ms;
+  text-decoration: underline;
+}
+
+.item-p {
+  margin-bottom: 20px;
+}
+
+.item-link:hover {
+  color: blue;
+}
+
+.item h3 {
+  display: flex;
+  align-items: center;
+  gap: 5px
+}
+
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .item p {
+    font-size: 10px;
+  }
+  .item h3 {
+    font-size: 14px;
+  }
+}
